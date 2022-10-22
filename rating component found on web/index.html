@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+  <div class="container">
+  <div class="smileybox">	
+      <h1>Rating Stars</h1>
+      <!-- Star 1-->
+      <label for="r1" class="check">
+        <input type="checkbox" 
+          id="r1" 
+          onmouseover="ratingStar(event, 1, 'hover')" 
+          onchange="ratingStar(event, 1, 'click')"
+        />
+        <i class="em em-weary"></i>
+      </label>
+      <!-- Star 2-->
+      <label for="r2" class="check">
+        <input type="checkbox" 
+          id="r2" 
+          onmouseover="ratingStar(event, 2, 'hover')" 
+          onchange="ratingStar(event, 2, 'click')"
+        />
+        <i class="em em-worried"></i>
+      </label>
+      <!-- Star 3-->
+      <label for="r3" class="check">
+        <input type="checkbox" 
+          id="r3" 
+          onmouseover="ratingStar(event, 3, 'hover')" 
+          onchange="ratingStar(event, 3, 'click')"
+        />
+        <i class="em em-blush"></i>
+      </label>
+      <!-- Star 4-->
+      <label for="r4" class="check">
+        <input type="checkbox" 
+          id="r4" 
+          onmouseover="ratingStar(event, 4, 'hover')" 
+          onchange="ratingStar(event, 4, 'click')"
+        />
+        <i class="em em-smiley"></i>
+      </label>
+      <!-- Star 5-->
+      <label for="r5" class="check">
+        <input type="checkbox" 
+          id="r5" 
+          onmouseover="ratingStar(event, 5, 'hover')" 
+          onchange="ratingStar(event, 5, 'click')"
+        />
+        <i class="em em-sunglasses"></i>
+      </label>
+  </div>
+</div>
+  </body>
+</html>
